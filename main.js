@@ -28,7 +28,7 @@ module.exports = class DraftIndicatorPlugin extends Plugin {
     const metadata = this.app.metadataCache.getFileCache(file)
     const element = this.getElement(file)
 
-    if (metadata.frontmatter?.editing_lock === true) {
+    if (metadata.frontmatter?.editing_lock === false) {
       element.addClass(editClassName)
     } else {
       element.removeClass(editClassName)
