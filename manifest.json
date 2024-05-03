@@ -1,10 +1,10 @@
 {
-	"id": "draft-indicator",
-	"name": "Draft Indicator",
+	"id": "edit-publish-indicator",
+	"name": "Edit Publish Indicator",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"description": "Show draft status with ✎ icons in the file explorer.",
-	"author": "Brian Boucheron",
+	"description": "Show edit status with ✎ icons and publish status with 🌐 icons in the file explorer.",
+	"author": "Brian Boucheron, Emile Bangma",
 	"authorUrl": "https://boucheron.org/brian",
 	"isDesktopOnly": false
 }
