@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+.edit-indicator .publish-indicator .nav-file-title-content::before {
+  content: '🌐✎';
+}
+
 .edit-indicator .nav-file-title-content
 .publish-indicator .nav-file-title-content {
   font-style: italic;
