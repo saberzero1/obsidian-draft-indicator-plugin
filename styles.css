@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+.edit-indicato .publish-indicator .nav-file-title-content::before {
+  color: var(--icon-color);
+  content: '🌐✎';
+  float: right;
+  font-style: normal;
+}
+
 .edit-indicato .nav-file-title-content
 .publish-indicator .nav-file-title-content {
   font-style: italic;
