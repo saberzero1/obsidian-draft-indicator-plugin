@@ -1,6 +1,7 @@
 const { Plugin } = require('obsidian')
 const editClassName = 'edit-indicator'
 const publishClassName = 'publish-indicator'
+const indexClassName = 'index-indicator'
 
 module.exports = class DraftIndicatorPlugin extends Plugin {
   async onload() {
@@ -20,6 +21,7 @@ module.exports = class DraftIndicatorPlugin extends Plugin {
     this.app.vault.getMarkdownFiles().forEach((file) => {
       this.getElement(file).removeClass(editClassName)
       this.getElement(file).removeClass(publishClassName)
+      this.getElement(file).removeClass(indexClassName)
     })
   }
 
@@ -38,6 +40,12 @@ module.exports = class DraftIndicatorPlugin extends Plugin {
       element.addClass(publishClassName)
     } else {
       element.removeClass(publishClassName)
+    }
+
+    if (file.name === "index") {
+      element.addClass(indexClassName)
+    } else {
+      element.removeClass(indexClassName)
     }
   }
 
