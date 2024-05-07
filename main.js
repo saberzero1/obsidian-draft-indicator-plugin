@@ -42,7 +42,7 @@ module.exports = class DraftIndicatorPlugin extends Plugin {
       element.removeClass(publishClassName)
     }
 
-    if (file.name === "index") {
+    if (file.basename === "index") {
       element.addClass(indexClassName)
     } else {
       element.removeClass(indexClassName)
