@@ -1,6 +1,6 @@
 .edit-indicator .nav-file-title-content::before {
   color: var(--icon-color);
-  content: '✎';
+  content: '🖋️';
   float: right;
   font-style: normal;
 }
@@ -14,25 +14,25 @@
 
 .index-indicator .nav-file-title-content::before {
   color: var(--icon-color);
-  content: '🕮';
+  content: '🧭';
   float: right;
   font-style: normal;
 }
 
-.edit-indicator .publish-indicator .nav-file-title-content::before {
-  content: '🌐✎';
+.edit-indicator.publish-indicator .nav-file-title-content::before {
+  content: '🌐🖋️';
 }
 
-.edit-indicator .index-indicator .nav-file-title-content::before {
-  content: '🕮✎';
+.edit-indicator.index-indicator .nav-file-title-content::before {
+  content: '🧭🖋️';
 }
 
-.publish-indicator .index-indicator .nav-file-title-content::before {
-  content: '🕮🌐';
+.publish-indicator.index-indicator .nav-file-title-content::before {
+  content: '🧭🌐';
 }
 
-.edit-indicator .publish-indicator .index-indicator .nav-file-title-content::before {
-  content: '🕮🌐✎';
+.edit-indicator.publish-indicator.index-indicator .nav-file-title-content::before {
+  content: '🧭🌐🖋️';
 }
 
 .edit-indicator .nav-file-title-content
