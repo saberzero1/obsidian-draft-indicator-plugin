@@ -1,9 +1,9 @@
 {
-	"id": "edit-publish-indicator",
+	"id": "edit-publish-index-indicator",
 	"name": "Edit Publish Indicator",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"description": "Show edit status with ✎ icons and publish status with 🌐 icons in the file explorer.",
+	"description": "Show edit status with ✎ icons, index status with 🕮 icons, and publish status with 🌐 icons in the file explorer.",
 	"author": "Brian Boucheron, Emile Bangma",
 	"authorUrl": "https://boucheron.org/brian",
 	"isDesktopOnly": false
